@@ -10,7 +10,7 @@ const fugazOne = Fugaz_One({
   });
 
 
-function EventCard({ event, linkToVenue = true }) {
+function EventCard({ event, linkToVenue = true, showVenue = true, showDate = false }) {
 
   console.log(event);
 
@@ -80,6 +80,18 @@ function EventCard({ event, linkToVenue = true }) {
         </div>
         <div className="flex justify-between text-md text-zinc-400">
           <span>
+            {event.dateString && showDate && (
+              <>
+              <span className="inline">
+                {new Date(event.dateString).toLocaleDateString('en-US', {
+                  weekday: 'short',
+                  month: 'short', 
+                  day: 'numeric'
+                })}
+              </span>
+              <span className="inline"> • </span>
+              </>
+            )}
             {event.setTimes && event.setTimes.length > 0 ? (
               <>
                 {event.setTimes.map((timeString, index) => {
@@ -109,7 +121,7 @@ function EventCard({ event, linkToVenue = true }) {
             ) : (
               <span className="text-zinc-400">Time TBA</span>
             )}
-            {event.venue?.name && (
+            {event.venue?.name && showVenue && (
               <>
                 <span className="inline"> • </span>
                 <span className="inline">

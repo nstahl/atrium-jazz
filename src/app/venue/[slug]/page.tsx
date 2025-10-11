@@ -199,7 +199,9 @@ export default async function Page({ params }: PageProps) {
               <EventCard
                 key={event.id}
                 event={event}
-                linkToVenue={false}
+                linkToVenue={true}
+                showVenue={false}
+                showDate={true}
               />
             ))}
           </div>
