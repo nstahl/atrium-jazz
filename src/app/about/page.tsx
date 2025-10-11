@@ -7,11 +7,11 @@ export default function AboutPage() {
       
       <div className="prose max-w-none">
         <p className="mb-4">
-          There is an abundance of great jazz music in New York City. Our mission is to help you connect with it.
+          Our mission is to help you connect with the best live jazz music in New York City.
         </p>
         
         <p className="mb-4">
-          Listings are updated weekly. If you&apos;d like your club or event to be added, please email us at <a href="mailto:info@atriumjazz.com" className="text-blue-300 hover:underline ml-1">info@atriumjazz.com</a>.
+          If you&apos;d like your club or event to be added, please email us at <a href="mailto:info@atriumjazz.com" className="text-blue-300 hover:underline ml-1">info@atriumjazz.com</a>.
         </p>
         
         <h2 className="text-2xl font-semibold mt-6 mb-4">Our Story</h2>
@@ -21,7 +21,7 @@ export default function AboutPage() {
         
         <h2 className="text-2xl font-semibold mt-6 mb-4">Contact Us</h2>
         <p>
-          Questions or suggestions? We&apos;d love to hear from you! Write us at 
+          Questions, feedback or suggestions? Write us at 
           <a href="mailto:info@atriumjazz.com" className="text-blue-300 hover:underline ml-1">
             info@atriumjazz.com
           </a>.

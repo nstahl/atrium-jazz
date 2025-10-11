@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function TermsAndConditions() {
   return (
-    <div className="max-w-4xl mx-auto p-6 mt-20">
-      <h1 className="text-3xl font-bold mb-8">Terms and Conditions of Use</h1>
+    <div className="max-w-4xl mx-auto p-6">
+      <h1 className="text-3xl font-bold mb-8">Terms of Use</h1>
       
       <div className="prose prose-invert max-w-none">
         <p className="mb-6">
@@ -135,7 +135,7 @@ export default function TermsAndConditions() {
           </div>
         </section>
 
-        <section className="mt-12 p-6 bg-white/5 rounded-lg">
+        <section className="p-6 bg-white/5 rounded-lg">
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
           <p className="mb-4">If you have questions or concerns about these Terms, please contact us at:</p>
           <div className="space-y-2">

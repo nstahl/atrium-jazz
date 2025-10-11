@@ -10,6 +10,12 @@ export default function Footer() {
           </div>
           <div className="flex space-x-6">
             <Link 
+              href="/about" 
+              className="text-sm text-gray-400 hover:text-white transition-colors"
+            >
+              About
+            </Link>
+            <Link 
               href="/terms-of-use" 
               className="text-sm text-gray-400 hover:text-white transition-colors"
             >
