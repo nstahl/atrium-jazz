@@ -298,7 +298,7 @@ export default async function Page({ params }: PageProps) {
               rel="noopener noreferrer"
               className="hidden md:block bg-white text-black px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-200 transition-colors"
             >
-              Tickets
+              Tickets!!
             </a>
           </div>
         </div>
@@ -311,7 +311,7 @@ export default async function Page({ params }: PageProps) {
             rel="noopener noreferrer"
             className="flex-1 bg-white text-black py-3 text-lg font-bold hover:bg-gray-200 transition-colors text-center rounded-lg"
           >
-            Tickets
+            Tickets!!
           </a>
           <ShareButton url={`https://www.atriumjazz.com/event/${slug}`} className="w-14 h-14 p-0 text-xl font-bold rounded-lg flex items-center justify-center bg-blue-300 text-black" showText={false} />
         </div>

@@ -204,7 +204,7 @@ function EventCard({ event, linkToVenue = true, showVenue = true, showDate = fal
           className={`${fugazOne.className} hidden sm:flex items-center justify-center bg-zinc-100 text-black font-bold rounded-xl h-10 sm:h-12 sm:px-8 text-lg hover:bg-white transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400`}
           onClick={e => e.stopPropagation()}
         >
-          Tickets
+          Tickets!!
         </a>
       </div>
     </div>
