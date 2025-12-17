@@ -1,8 +1,12 @@
 # Atrium Jazz
 
-A website that shows upcoming jazz concerts in select jazz clubs across NYC. Work in progress.
+## Background
 
-> This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a personal project I started coding in March, 2025 to build something code/software based that would help people discover live jazz music in NYC. 
+
+Visit [`www.atriumjazz.com`](https://www.atriumjazz.com) for the latest version, I do my best to keep it updated.
+
+For inquiries, please write `info@atriumjazz.com`
 
 ## Getting Started
 
