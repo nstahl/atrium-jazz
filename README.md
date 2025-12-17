@@ -1,4 +1,4 @@
-# Jazz Tonight in NYC
+# Atrium Jazz
 
 A website that shows upcoming jazz concerts in select jazz clubs across NYC. Work in progress.
 
