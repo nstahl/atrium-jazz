@@ -100,7 +100,7 @@ rm -rf node_modules
 npm install
 ```
 
-This can sometimes fix issues with the prism client, regenerate the client with
+This can sometimes fix issues with the prisma client, regenerate the client with:
 
 ```bash
 npx prisma generate
@@ -129,5 +129,3 @@ npm run lint
 ```bash
 npx prisma migrate dev --name your_migration_name
 ```
-
-That's all you have to do.
